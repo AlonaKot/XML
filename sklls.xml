@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+ 
+ <hardsSkills>
+		<skill> Basic theory </skill>
+		<skill> Client-server architecture </skill>
+		<skill> HTTP Server request methods </skill>
+		<skill> HTTP Server responses codes </skill>
+		<skill> Structures of requests and responses </skill>
+		<skill> JSON, XML. Their structure </skill>
+		<skill> API testing </skill>
+		<skill> Removing and reading logs </skill>
+		<skill> POSTMAN, FIDLER </skill>
+		<skill> VPN </skill>
+		<skill> Dev Tools for web browsers </skill>
+		<skill> Mobile testing </skill>
+		<skill> Feature iOS, Android, guidelines </skill>
+		<skill> Building iOS Apps with Xcode </skill>
+		<skill> Building Android Applications with Android Studio </skill>
+		<skill> Interception of mobile traffic (sniffing) via CHARLES </skill>
+		<skill> Proxy settings on iOS and Android </skill>
+		<skill> Terminal Linux Ubuntu. Copying, creating, viewing, moving files on servers without a graphical interface </skill>
+		<skill> Simple bash scripting, automation of routine tasks on the server </skill>
+		<skill> Access to remote servers </skill>
+		<skill> SQL fundamentals (Create, Delete, Drop, Insert Into, Select, From, Where, Join </skill>
+		<skill> GIT </skill>
+		<skill> JMETER </skill>
+		<skill> Scrum Development Methodology </skill>
+		<skill> Python. Creation of own client-server application </skill>
+</hardsSkills>	
+
+
