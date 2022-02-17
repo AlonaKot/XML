@@ -15,18 +15,18 @@
                               <five> Characteristics &quot;Test&quot;, &quot;Test 1&quot;, &quot;Test 2&quot; are included in the group of characteristics &quot;Overall dimensions&quot; </five>
                               <six> The subgroup &quot;Groups of characteristics&quot; is opened </six>
                     </Precondition>
-                    <Steps to Reproduce>
+                    <StepsToReproduce>
                               <one> Click on the kebab menu next to the group 'Dimensions'</one>
                               <two> Select the &quot;Delete&quot; menu in the kebab </two>
-                    </Steps to Reproduce>
-                    <Actual Result>
+                    </StepsToReproduce>
+                    <ActualResult>
                               <one> Group deleted </one>
                               <two> When switching to the &quot;Characteristics&quot; tab, the characteristics &quot;Test&quot;, &quot;Test 1&quot;, &quot;Test 2&quot; are displayed with binding to the deleted group </two>
-                    </Actual Result>     
-                    <Expected Result>
+                    </ActualResult>     
+                    <ExpectedResult>
                               <one> Group deleted </one>
                               <two> When switching to the &quot;Characteristics&quot; tab, the characteristics &quot;Test&quot;, &quot;Test 1&quot;, &quot;Test 2&quot; are displayed without binding to the remote group </two>
-                    </Expected Result>
+                    </ExpectedResult>
         </Descriprion>
         <Attachment> https://drive.google.com/file/d/1KAg5XKZQIQC6zYaOxrDbs2ng1LBuOxcz/view?usp=sharing </Attachment>
         <Assignee/>
