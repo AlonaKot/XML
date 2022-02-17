@@ -1,5 +1,4 @@
- <?xml version="1.0"?>
-
+<?xml version="1.0"?>
 <bugReport>
         <Summary> Displaying a characteristic associated with a deleted group </Summary>
         <Priority> Major </Priority>
