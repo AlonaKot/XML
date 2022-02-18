@@ -91,9 +91,8 @@
 ```
 + нажать `esc` ввести `:wq`
 12. Сделать коммит в одну строку.
-+ `git commit -m "new files"`
++ `git add . ; git commit -m "new files"`
 13. Отправить сразу 2 файла на внешний репозиторий.
-+ `git add .`
 + `git push`
 14. На веб интерфейсе создать файл bug_report.xml.
 + В репозитории XML нажать `add file`
