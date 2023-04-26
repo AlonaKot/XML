@@ -1,28 +1,30 @@
 # XML
 
-1. Создать внешний репозиторий c названием XML.
-+ Открыть https://github.com/, залогиниться 
-+ Зайти во вкладку `Repositories`
-+ Нажеть `New`
-+ Ввести название репозитория, сделать его общедоступным
-+ Нажать `create repository`
-2. Клонировать репозиторий XML на локальный компьютер.
-+ открыть GitBash в папке, где будет храниться репозиторий
-+ в командную стороку ввести команду git clone + ссылка на репозиторий, который хотим клонировать
- 3. Внутри локального XML создать файл “new.xml”.
-+ `cd XML` - перейти в локальный репозиторий
-+ `touch new.xml`
- 4. Добавить файл под гит.
-+ `git add new.xml` - для добавления определенного файла
-+ `git add .` - для добавления всех файлов
- 5. Закоммитить файл.
-+ `git commit -m "new file"`
- 6. Отправить файл на внешний GitHub репозиторий.
-+ `git push`
- 7. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.
-+ `vim new.xml` 
-+ нажать `i`
-+ внести данные
+1. Create an external repository with a name XML.
++ Open https://github.com/, Login in
++ Go to tab "Repositories"
++ Press "New"
++ Enter the name of the repository, make it public
++ Press "create repository"
+
+ 2. Clone repository XML to the local computer.
++ open GitBash in the folder where the repository will be stored
++ enter the command on the command line git clone + link to the repository we want to clone
+ 3. Create file inside local XML _new.xml_.
++ _cd XML_ - go to local repository
++ _cat > new.xml_
++ _ctrl + c_ - get out of editing
+ 4. Add file on git.
++ _git add new.xml_ - to add a particular file
++ _git add ._ - to add all files
+ 5. Commit the file.
++ _git commit -m "new file"_
+ 6. Submit a file to an external GitHub repository.
++ _git push_
+ 7. Edit file content _new.xml_ - write information about yourself (name, age, number of pets, future desired salary). Write everything in the format XML.
++ _vim new.xml_ 
++ press _"i"_
++ enter data
 ```
 <?xml version="1.0"?>
 	
@@ -33,14 +35,18 @@
 	<disiredSalary> 600$ </disiredSalary>
 </aboutme>
 ```
-+ нажать `esc` ввести `:wq`
-8. Отправить изменения на внешний репозиторий.
-+ `git commit -am "edit file"; git push`
-9. Создать файл preferences.xml
-+ `vim preferences.xml`
-10. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML.
-+ нажать `i` - для редактирования 
-+ внести данные
+
++ press _"esc"_ enter _:wq_
+ 8. Push changes to an external repository.
++ _git add new.xml_ - add the changed file to git
++ _git commit -am "edit file"_ - commit changes
++ _git push_ - push modified file to external repository
+ 9. Create file _preferences.xml_
++ _vim preferences.xml_
+
+ 10. To file _preferences.xml_ dd information about your preferences (Favorite movie, favorite series, favorite food, favorite season, side you would like to visit) in the format XML.
++ press _"i"_
++ Enter text
 ```
 <?xml version="1.0"?>
 
@@ -51,13 +57,14 @@
         <country> Switzerland </country>
 </myPreferences>
 ```
-+ нажать `esc` ввести `:wq`
-11. Создать файл skills.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML
-+ `vim skills.xml`
++ press _"esc"_ enter _:wq_
+
+ 11. Create file _skills.xml_ add information about the skills that will be studied on the course in the format XML
+ + _vim skills.xml_
  ```
  <?xml version="1.0"?>
  
-<hardsSkills>
+ <hardsSkills>
 		<skill> Basic theory </skill>
 		<skill> Client-server architecture </skill>
 		<skill> HTTP Server request methods </skill>
@@ -85,20 +92,27 @@
 		<skill> Python. Creation of own client-server application </skill>
 </hardsSkills>	
 ```
-+ нажать `esc` ввести `:wq`
-12. Сделать коммит в одну строку.
-+ `git add .; git commit -m "new files"`
-13. Отправить сразу 2 файла на внешний репозиторий.
-+ `git push`
-14. На веб интерфейсе создать файл bug_report.xml.
-+ В репозитории XML нажать `add file`
-+ Выбрать `Create new file`
-+ Вести название файла
-15. Сделать Commit changes (сохранить) изменения на веб интерфейсе. 
-+ Нажать кнопку `Commit new file`
-16. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.
-+ Открыть файл bug_report.xml Выбрать редактирование. Ввести текст
-```
++ press _"esc"_ enter _:wq_
+	
+ 12. Make a commit in one line.
++ _git commit -m "new files"_
+ 
+ 13. Upload 2 files at once to an external repository.
+ + _git add ._
+ + _git push_
+ 
+ 14. Create a file on the web interface _bug_report.xml_.
+ + In the repository XML press _"add file"_
+ + Choose _"Create new file"_
+ + Enter the file name
+ 
+ 15. Do Commit changes (save) changes on the web interface.
+ 
+ + Press the button _"Commit new file"_
+ 
+ 16. Modify the file on the web interface _bug_report.xml_, add a bug report in the format XML.
+ + Open file _bug_report.xml_ Select edit. Enter text
+ ```
 <?xml version="1.0"?>
 
 <bugReport>
@@ -133,8 +147,8 @@
         <Assignee/>
         <Reporter> Alona Kot </Reporter>
 </bugReport> 
-```
-17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
-+ Нажать кнопку `Commit changes`
-18. Синхронизировать внешний и локальный репозиторий XML
-+ `git pull`
+``` 
+ 17. Do Commit changes (save) changes on the web interface.
++ Press the button _Commit changes_.
+ 18. Synchronize external and local repository XML
++ _git pull_
